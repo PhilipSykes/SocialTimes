@@ -1,0 +1,73 @@
+:root {
+    --black: #111;
+    --yellow: #F5B207;
+}
+
+@font-face {
+    font-family: Chomsky;
+    src: url(assets/fonts/Chomsky-8MOa2.otf);
+}
+
+#main-title{
+    color: var(--black);
+
+    font-size: 64px;
+    font-family: Chomsky;
+
+    margin: 0;
+
+    width: 750px;
+    text-align: center;
+    position: absolute;
+    
+    z-index: 2;
+
+}
+
+#title-line {
+    position: absolute;
+    z-index: 1;
+
+    height: 2px;
+    width: 750px;
+    color: transparent;
+    border-block: 3px solid #F5B207;
+
+    margin-top: 50px;
+}
+
+#title-wrapper { 
+    height: 100px;
+}
+
+#feed-container {
+    width: 750px;
+    margin-inline: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#feed-btn-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.feed-btn {
+    font-size: 20px;
+    font-family: "tiffin-latin-variable", sans-serif;
+    font-weight: 350;
+
+    text-decoration: none;
+    text-align: center;
+
+    color: var(--black);
+
+    padding-inline: 20px;
+}
+
+.selected{
+    font-weight: 700;
+}
